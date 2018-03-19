@@ -1,0 +1,33 @@
+*{margin: 0px; padding: 0px;}
+#wrap{width: 1100px; height: 1385px; margin: 0 auto;}
+header{height: 100px; text-align: center; background-color: black;}
+section{height: 1250px;}
+footer{height: 45px; background-color: #808080;}
+li{list-style: none;}
+a{text-decoration: none; color: white;}
+
+.logo_box{width: 1100px; height: 70px;}
+
+.top{width: 180px; height: 30px; margin-left: 460px;}
+.top > li {width: 90px; height: 30px; float: left; color: white;}
+.main_box{width:1100px; height:870px; text-align: center; background-color: #299dc6;}
+.main{width: 850px; height:870px;}
+
+.notice_box{width: 550px;  height:380px; float: left; position: relative;}
+.notice_box > img {width: 550px;  height:380px;  position: absolute;}
+.notice_table{width: 550px; height: 200px; position: relative;}
+
+.r_bar_box{width: 550px; height: 380px;  float: left; position: relative;}
+.r_bar_box > img {width: 550px; height: 380px;  position: absolute;}
+.r_bar_table{width: 550px; height: 200px; position: relative;}
+
+td{color:white; font-size: 15px;}
+th{color:white; text-align: center; height: 64px;}
+
+footer > p{width: 1100px; color: white; text-align: center;}
+
+
+.notice_look_box{ position: absolute; width: 70px; height: 25px; right: 20px; top: 20px;}
+.r_bar_look_box{ position: absolute; width: 70px; height: 25px; right: 20px; top: 20px;}
+.the_look1{position: absolute; color: white; z-index: 99;}
+.the_look2{position: absolute; color: white; z-index: 99;}
