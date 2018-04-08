@@ -1,10 +1,12 @@
 *{margin: 0px; padding: 0px;}
-#wrap{width: 1100px; height: 1385px; margin: 0 auto;}
+#wrap{width: 1100px; height: auto; margin: 0 auto;}
 header{height: 100px; text-align: center; background-color: black;}
 section{height: 1250px;}
-footer{height: 45px; background-color: #808080;}
+footer{height: 74px; background-color: #808080; line-height: 42px;}
 li{list-style: none;}
 a{text-decoration: none; color: white;}
+
+footer > p{width: 1100px; color: white; text-align: center; height: 42px;}
 
 .logo_box{width: 1100px; height: 70px; line-height: 90px;}
 
@@ -24,7 +26,6 @@ a{text-decoration: none; color: white;}
 td{color:white; font-size: 15px;}
 th{color:white; text-align: center; height: 64px;}
 
-footer > p{width: 1100px; color: white; text-align: center;}
 
 
 .notice_look_box{ position: absolute; width: 70px; height: 25px; right: 20px; top: 20px;}
