@@ -1,27 +1,28 @@
 *{margin: 0px; padding: 0px;}
-#wrap{height: 1170px; width: 100%; margin: 0 auto;}
-header{height: 80px; width: 100%; background-color: #2a2529;}
+#wrap{width: 1100px; height: auto; margin: 0 auto;}
+header{height: 100px; text-align: center; background-color: black;}
+section{height: 800px; width: 1100px;}
+footer{width: 1100px; height: 74px; background-color: #808080; line-height: 42px;}
 li{list-style: none;}
-a{text-decoration: none; color:white;}
+a{text-decoration: none; color: white;}
 
-.logo_box{ width : 15%; height: 80px; text-align: center; line-height: 100px; float: left;}
-.top{width: 300px; height: 80px; float: right;}
-.menu{width: 100px; height: 80px; float: left; line-height: 80px; text-align: center;color: white;}
+footer > p{width: 1100px; color: white; text-align: center; height: 42px;}
+
+.logo_box{ width : 250px; height: 100px; text-align: center; line-height: 130px; float: left;}
+.top{width: 300px; height: 100px; float: right;}
+.menu{width: 100px; height: 100px; float: left; line-height: 100px; text-align: center;color: white;}
 #this{color:red;}
-.notice_img {width: 30%; height: auto; float: left;}
-.notice_img > img {width: 100%; height: auto;}
+.notice_img {width: 40%; height: 800px; float: left;}
+.notice_img > img {width: 100%; height: 100%;}
 
-.notice_table_box{width: 70%; height: 310px; float: left;}
-th{font-size: 27px; text-align: left;}
-.top_tb{border-top:2px solid black; font-size: 23px;}
+.notice_table_box{width: 60%; height: 310px; float: left;}
+th{font-size: 22px; text-align: left;}
+.top_tb{border-top:2px solid black; font-size: 18px;}
 .bottom_tb{border-bottom:2px solid black;}
-tr{height: 50px;}
+tr{height: 50px; font-size: 15px;}
 td{width: 100%;}
 table{width: 85%; margin-left: 10%;}
 .mid{border-bottom: 1px solid black;}
-.main_tb{font-size: 23px;}
+.main_tb{font-size: 18px;}
 
 
-.table_btn > p {text-align: center; line-height: 10px;}
-
-footer{background-color: #f1f1f1; width: 70%; float: left; height: 70px; margin-top: 690px; text-align: center; line-height: 70px;}
