@@ -25,4 +25,7 @@ table{width: 85%; margin-left: 10%;}
 .mid{border-bottom: 1px solid black;}
 .main_tb{font-size: 18px;}
 
-
+.notice_btn_box{width: 60%; float: left; height: 40px; text-align: center;}
+.input_box{width: 60%; float: left; height: 30px; text-align: center;}
+input{ background-color: #f2f2f2; width: 200px; height: 25px;}
+.notice1_btn{width: 30px; height: 30px; background-color: #464042; color: white;}
