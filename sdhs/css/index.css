@@ -1,0 +1,43 @@
+*{margin: 0px; padding: 0px; box-sizing: border-box;}
+#wrap{width: 1000px; height: 1050px; margin: 0 auto;}
+header{width: 1000px; height: 130px;}
+section{width: 1000px; height: 800px;}
+footer{width: 1000px; height: 100px;}
+
+a{text-decoration: none; color: black;}
+a:hover{color: skyblue;}
+li{list-style: none;}
+
+.logo_box{
+    width: 220px; height: 130px; line-height: 190px; float: left;
+}
+.login_box{
+    width: 225px; height: 30px; float: right; margin-bottom: 10px; margin-top: 15px;
+}
+.login_box > a >li{
+    width: 75px; height: 30px; float: left; line-height: 30px; text-align: center; border: 1px solid #EFEFEF; font-size: 13px;
+}
+input{
+    height: 36px; float: right;
+}
+.input_box{
+    float: right; margin-left: 30px; margin-top: 10px; margin-bottom: 10px;
+}
+.input_box > img{float: right; cursor: pointer;}
+
+.drop_top{width: 750px; height: 50px; float: left; border-top: 1px solid midnightblue; margin-left: 30px; position: relative; z-index: 10;}
+.drop_top > li{width: 150px; height: 50px; float: left; line-height: 50px; text-align: center; font-weight: bold; background-color: white;}
+.drop_top > li > ul > a > li{font-size: 14px; background-color: white;}
+
+.drop_top > li > ul{ border: 1px solid midnightblue; border-radius: 20px 0px;}
+
+.drop_top > li > ul{height: 0px; overflow: hidden; transition: 1s;}
+.drop_top > li:hover >.submenu_5{height: 250px;}
+.drop_top > li:hover >.submenu_7{height: 350px;}
+.drop_top > li:hover >.submenu_8{height: 400px;}
+.drop_top > li:hover >.submenu_9{height: 450px;}
+
+.slider{
+    width: 1000px; height: 500px;
+}
+.dog{position: absolute; z-index: 100; margin-top: 130px; display: none;}
