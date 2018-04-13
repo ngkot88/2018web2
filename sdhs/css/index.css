@@ -37,7 +37,14 @@ input{
 .drop_top > li:hover >.submenu_8{height: 400px;}
 .drop_top > li:hover >.submenu_9{height: 450px;}
 
-.slider{
-    width: 1000px; height: 500px;
+.slider {
+    width: 1000px; height: 500px; position: relative; overflow: hidden;
 }
+.slider > .box{
+    width: 1000px; height: 500px; position: relative;
+}
+.slider > .box > img{
+    width: 1000px; height: 500px; position: absolute; left: -1000px;
+}
+.slider > .box img:first-child{left: 0;}
 .dog{position: absolute; z-index: 100; margin-top: 130px; display: none;}
