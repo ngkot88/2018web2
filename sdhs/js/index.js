@@ -14,7 +14,7 @@ $(document).ready(function () {
    }
    setInterval(slide_right,2000);
 
-   $(".main_img").click(function () {
+   $(".slider").click(function () {
       $(".dog").css("display", "block");
    });
    $(".dog").click(function () {

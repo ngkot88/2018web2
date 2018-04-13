@@ -47,4 +47,12 @@ input{
     width: 1000px; height: 500px; position: absolute; left: -1000px;
 }
 .slider > .box img:first-child{left: 0;}
-.dog{position: absolute; z-index: 100; margin-top: 130px; display: none;}
+.dog{position: absolute; z-index: 100; margin-top: 130px; display: none; cursor: pointer;}
+
+.table_box{width: 550px; height: 300px; background-color: ghostwhite;}
+th{float: left; width: 100px; height: 30px; text-align: left; line-height: 30px; cursor:pointer;}
+.notice_this{color: #4171ff;}
+.the_look{width: 70px; height: 30px; line-height: 30px; position: absolute; margin-left: 465px; }
+td{height: 35px;}
+.notice_area{width: 530px;}
+.date{width: 150px; text-align: center;}
