@@ -4,8 +4,8 @@ $(document).ready(function () {
 
    function slide_right(){
       $(".box > img").eq(num).animate({left : -1000},0);
-      $(".box > img").eq(num-1).animate({left : 1000 ,opacity : 0},500);
-      $(".box > img").eq(num).animate({left : 0 ,opacity : 1},500);
+      $(".box > img").eq(num-1).animate({left : 1000 ,opacity : 0});
+      $(".box > img").eq(num).animate({left : 0 ,opacity : 1});
 
       num++;
       if(num>=3){
@@ -20,4 +20,18 @@ $(document).ready(function () {
    $(".dog").click(function () {
        $(".dog").css("display", "none");
    });
+
+   $(".sub_img_box").click(function () {
+       $(".sub_pup_box").css("display","block");
+   });
+   $(".sub_pup_box  button").click(function () {
+      $(".sub_pup_box").css("display", "none");
+   });
+
+    $(".school_food").click(function () {
+        $(".food_pup_box").css("display","block");
+    });
+    $(".food_pup_box button").click(function () {
+        $(".food_pup_box").css("display", "none");
+    });
 });

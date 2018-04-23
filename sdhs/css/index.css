@@ -1,15 +1,16 @@
 *{margin: 0px; padding: 0px; box-sizing: border-box;}
-#wrap{width: 1000px; height: 1100px; margin: 0 auto;}
-header{width: 1000px; height: 130px;}
-section{width: 1000px; height: 850px;}
-footer{width: 1000px; height: 100px;}
+#wrap{width: 1000px; height: 1090px; margin: 0 auto;}
+header{width: 1000px; height: 120px;}
+section{width: 1000px; height: 850px;background-color: #f1f1f8;}
+section>*{margin:5px;}
+footer{width: 1000px; height: 120px; background-color: #e5e6e8;}
 
 a{text-decoration: none; color: black;}
 a:hover{color: skyblue;}
 li{list-style: none;}
 
 .logo_box{
-    width: 250px; height: 130px; line-height: 190px; float: left;
+    width: 250px; height: 120px; line-height: 190px; float: left; text-align: center;
 }
 .login_box{
     width: 225px; height: 30px; float: right; margin-bottom: 10px; margin-top: 15px;
@@ -25,7 +26,7 @@ input{
 }
 .input_box > img{float: right; cursor: pointer;}
 
-.drop_top{width: 750px; height: 50px; float: left; border-top: 1px solid midnightblue; position: relative; z-index: 10;}
+.drop_top{width: 750px; height: 55px; float: left; border-top: 1px solid midnightblue; position: relative; z-index: 100;}
 .drop_top > li{width: 150px; height: 50px; float: left; line-height: 50px; text-align: center; font-weight: bold; background-color: white;}
 .drop_top > li > ul > a > li{font-size: 14px; background-color: white;}
 
@@ -38,7 +39,7 @@ input{
 .drop_top > li:hover >.submenu_9{height: 450px;}
 
 .slider {
-    width: 1000px; height: 500px; position: relative; overflow: hidden;
+    width: 1000px; height: 500px; position: relative; overflow: hidden;margin:0;
 }
 .slider > .box{
     width: 1000px; height: 500px; position: relative;
@@ -47,9 +48,11 @@ input{
     width: 1000px; height: 500px; position: absolute; left: -1000px;
 }
 .slider > .box img:first-child{left: 0;}
-.dog{position: absolute; z-index: 100; margin-top: 130px; display: none; cursor: pointer;}
+.dog{position: absolute; z-index: 100; margin-top: 120px; display: none; cursor: pointer;}
 
-.table_box{width: 550px; height: 165px; background-color: ghostwhite; float: left; border: 1px solid black;}
+.table_box{width: 540px; height: 155px;  float: left;
+    /*padding: 5px;*/
+}
 th{float: left; width: 105px; height: 30px; text-align: left; line-height: 30px; cursor:pointer; font-size: 20px;}
 .notice_this{color: #4171ff;}
 .the_look{width: 70px; height: 30px; line-height: 30px; position: absolute; margin-left: 465px;}
@@ -57,12 +60,29 @@ td{height: 24px;}
 .notice_area{width: 530px;}
 .date{width: 150px; text-align: center;}
 
-.sub_img_box{width: 450px; height: 345px; float: right;}
-.sub_img_box > img {width: 450px; height: 345px;}
+.sub_img_box{width: 440px; height: 340px; float: right; cursor: pointer;}
+.sub_img_box > img {width: 100%; height: 100%;}
 
-.job_jung{width: 275px; height: 180px; float: left;}
-.school_food{width: 275px; height: 180px; float: left;}
+.job_jung{width: 270px; height: 180px; float: left;}
+.school_food{width: 270px; height: 180px; float: left;}
 
-.food_box{width: 550px; height: 180px; float:left; background-color: #c0c0c0;}
+.food_box{width: 540px; height: 175px; float:left; text-align: center;
+    /*padding:5px;*/
+    background-color: #f1f1f8;}
+.food_box > .school_food > p {font-weight: bold;}
+.food_box img{width: 255px; height: 150px; cursor: pointer;}
 
-.sub_img_box > p{line-height: 345px; text-align: center; font-size: 30px; background-color: gainsboro;}
+.sub_pup_box{width: 550px; height: 450px; position: absolute; z-index: 100; top: 320px; display: none; border: 1px solid black; left: 50%; margin-left: -275px; background-color: white; }
+.sub_pup_box>div{width:440px;margin:10px auto;}
+.sub_pup_box button{width: 100px; height: 50px; display:block;margin:15px auto;}
+
+.food_pup_box{position: absolute; z-index: 100; top: 295px; display: none; border: 1px solid black; left: 50%; margin-left: -325px; width: 650px; height: 500px; background-color: white;}
+.food_pup_box button{width: 100px; height: 50px; display: block; margin: 20px auto;}
+.food_pup_box>div{width: 550px; height: 100%; margin: 20px auto;}
+.food_pup_box  > img{margin-top: 40px;}
+
+.job_jung > p{font-weight: bold;}
+
+footer > p{text-align: center; line-height: 120px;}
+
+.no_job{line-height: 150px;}
