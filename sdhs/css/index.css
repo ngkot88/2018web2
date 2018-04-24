@@ -1,9 +1,9 @@
 *{margin: 0px; padding: 0px; box-sizing: border-box;}
-#wrap{width: 1000px; height: 1090px; margin: 0 auto;}
+#wrap{width: 1000px; height: 970px; margin: 0 auto;}
 header{width: 1000px; height: 120px;}
-section{width: 1000px; height: 850px;background-color: #f1f1f8;}
+section{width: 1000px; height: 850px;}
 section>*{margin:5px;}
-footer{width: 1000px; height: 120px; background-color: #e5e6e8;}
+footer{width: 100%; height: 120px; background-color: #e5e6e8; float: left;}
 
 a{text-decoration: none; color: black;}
 a:hover{color: skyblue;}
@@ -50,27 +50,30 @@ input{
 .slider > .box img:first-child{left: 0;}
 .dog{position: absolute; z-index: 100; margin-top: 120px; display: none; cursor: pointer;}
 
-.table_box{width: 540px; height: 155px;  float: left;
+.table_box{width: 540px; height: 155px;  float: left; border: 1px solid rgba(25, 25, 112, 0.47); background-color: #f1f1f8;
+    padding-left: 5px; font-size: 14px; position: relative;
     /*padding: 5px;*/
 }
-th{float: left; width: 105px; height: 30px; text-align: left; line-height: 30px; cursor:pointer; font-size: 20px;}
-.notice_this{color: #4171ff;}
-.the_look{width: 70px; height: 30px; line-height: 30px; position: absolute; margin-left: 465px;}
-td{height: 24px;}
+th{float: left; width: 95px; height: 30px; text-align: left; line-height: 30px; cursor:pointer; font-size: 18px;}
+.notice_name{color: #4171ff;}
+.the_look{width: 70px; height: 30px; line-height: 30px; position: absolute; margin-left: 455px;}
+td{height: 22px;}
 .notice_area{width: 530px;}
 .date{width: 150px; text-align: center;}
+.table_box>table:nth-child(3){display: none;}
 
-.sub_img_box{width: 440px; height: 340px; float: right; cursor: pointer;}
+.sub_img_box{width: 440px; height: 340px; float: right; cursor: pointer; border: 1px solid rgba(25, 25, 112, 0.47);}
 .sub_img_box > img {width: 100%; height: 100%;}
 
-.job_jung{width: 270px; height: 180px; float: left;}
-.school_food{width: 270px; height: 180px; float: left;}
+.job_jung{width: 269px; height: 170px; float: left; padding: 5px;}
+.school_food{width: 269px; height: 170px; float: left; padding: 5px;}
+.school_food{width: 269px; height: 170px; float: left; padding: 5px;}
 
 .food_box{width: 540px; height: 175px; float:left; text-align: center;
-    /*padding:5px;*/
+    /*padding:5px;*/border: 1px solid rgba(25, 25, 112, 0.47);
     background-color: #f1f1f8;}
 .food_box > .school_food > p {font-weight: bold;}
-.food_box img{width: 255px; height: 150px; cursor: pointer;}
+.food_box img{width: 240px; height: 135px; cursor: pointer;}
 
 .sub_pup_box{width: 550px; height: 450px; position: absolute; z-index: 100; top: 320px; display: none; border: 1px solid black; left: 50%; margin-left: -275px; background-color: white; }
 .sub_pup_box>div{width:440px;margin:10px auto;}
@@ -85,4 +88,4 @@ td{height: 24px;}
 
 footer > p{text-align: center; line-height: 120px;}
 
-.no_job{line-height: 150px;}
+.now_date{font-size: 15px; /*width: 249px; height: 135px;*/ float: left; padding: 5px;}

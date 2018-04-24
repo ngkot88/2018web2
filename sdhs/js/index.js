@@ -4,8 +4,8 @@ $(document).ready(function () {
 
    function slide_right(){
       $(".box > img").eq(num).animate({left : -1000},0);
-      $(".box > img").eq(num-1).animate({left : 1000 ,opacity : 0});
-      $(".box > img").eq(num).animate({left : 0 ,opacity : 1});
+      $(".box > img").eq(num-1).animate({left : 1000 ,opacity : 0},500);
+      $(".box > img").eq(num).animate({left : 0 ,opacity : 1},500);
 
       num++;
       if(num>=3){
@@ -22,7 +22,7 @@ $(document).ready(function () {
    });
 
    $(".sub_img_box").click(function () {
-       $(".sub_pup_box").css("display","block");
+       $(".sub_pup_box").css({"display" : "block"});
    });
    $(".sub_pup_box  button").click(function () {
       $(".sub_pup_box").css("display", "none");
@@ -33,5 +33,24 @@ $(document).ready(function () {
     });
     $(".food_pup_box button").click(function () {
         $(".food_pup_box").css("display", "none");
+    });
+
+    var dt = new Date();
+    var day = dt.getDate();
+
+    $(".now_date").text(day);
+
+    $(".notice_name").click(function () {
+        $(".notice_name").css({"color" : "#4171ff"});
+        $(".home_page").css({"color" : "#000000"});
+        $(".notice_table").css({"display" : "block"});
+        $(".home_table").css({"display" : "none"});
+
+    });
+    $(".home_page").click(function () {
+        $(".home_page").css({"color" : "#4171ff"});
+        $(".notice_name").css({"color" : "#000000"});
+        $(".notice_table").css({"display" : "none"});
+        $(".home_table").css({"display" : "block"});
     });
 });
