@@ -37,8 +37,12 @@ $(document).ready(function () {
 
     var dt = new Date();
     var day = dt.getDate();
+    var year = dt.getFullYear();
+    var month = dt.getMonth();
 
-    $(".now_date").text(day);
+    $(".now_year").text(year+"년");
+    $(".now_month").text(month+1+"월");
+    $(".now_date").text(day+"일");
 
     $(".notice_name").click(function () {
         $(".notice_name").css({"color" : "#4171ff"});
