@@ -88,4 +88,10 @@ td{height: 22px;}
 
 footer > p{text-align: center; line-height: 120px;}
 
-.now_date{font-size: 15px; /*width: 249px; height: 135px;*/}
+.now_date{font-size: 30px; color: #4171ff;/*width: 249px; height: 135px;*/}
+
+.left_btn{float: left;}
+.right_btn{float: right;}
+.left_btn,.right_btn{cursor: pointer;}
+
+.date_box{width: 259px; height: 115px; line-height: 115px;}
