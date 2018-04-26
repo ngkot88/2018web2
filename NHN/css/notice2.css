@@ -22,7 +22,8 @@ h3{margin-top: 20px; margin-left: 20px;}
 .cho_box1{width: 48.5%; height: 30px; float: right; background-color: #4a4446; color: white; text-align: center; line-height: 30px; border: 1px solid black;}
 .cho_box2{width: 48.5%; height: 30px; float: right; background-color: white; color: #4a4446; text-align: center; line-height: 30px; border: 1px solid black;}
 
-.not_logo_box{width: 70px; height: 70px; background-color: black; float: left; margin-top: 10px; margin-left: 10px; color: white; text-align: center; line-height: 70px;}
+.not_logo_box{width: 70px; height: 70px; background-color: black; float: left; margin-top: 10px; margin-left: 10px; color: white; text-align: center; line-height: 80px; border-radius: 50px;}
+.not_logo_box > img{width: 60px; height: auto;}
 
 .table_box_s{width: 87.8%; height: 100%; float: left;}
 table{margin-left: 20px; margin-top: 10px; width: 95%; font-size: 11px; border-collapse:collapse;}
