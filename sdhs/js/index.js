@@ -14,13 +14,6 @@ $(document).ready(function () {
    }
    setInterval(slide_right,2000);
 
-    $(".slider").click(function () {
-        $(".dog").css("display", "block");
-    });
-    $(".dog").click(function () {
-        $(".dog").css("display", "none");
-   });
-
     $(".sub_img_box").click(function () {
         $(".sub_pup_box").css({"display" : "block"});
     });
@@ -77,7 +70,6 @@ $(document).ready(function () {
     });
     $(".left_btn").click(function () {
         max_day = new Date(year,month,0).getDate();
-        console.log(max_day);
         day--;
         $(".now_date").text(day+"일");
         week--;
@@ -87,13 +79,13 @@ $(document).ready(function () {
             today = array[week];
         }
         $(".now_week").text(today+"요일");
-        if(day <= 0){
+        if(day < 1){
             month--;
-            if(month < 0){
+            if(month < 1){
                 month = 12;
             }
             $(".now_month").text(month+"월");
-            day = max_day;
+            day = max_day = new Date(year,month,0).getDate();
             $(".now_date").text(day+"일");
         }
     });

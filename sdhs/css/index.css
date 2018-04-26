@@ -48,7 +48,16 @@ input{
     width: 1000px; height: 500px; position: absolute; left: -1000px;
 }
 .slider > .box img:first-child{left: 0;}
-.dog{position: absolute; z-index: 100; margin-top: 120px; display: none; cursor: pointer;}
+
+.slider_text{
+    width: 500px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    z-index: 50;
+    left: 250px;
+    top: 100px;
+}
 
 .table_box{width: 540px; height: 155px;  float: left; border: 1px solid rgba(25, 25, 112, 0.47); background-color: #f1f1f8;
     padding-left: 5px; font-size: 14px; position: relative;
@@ -88,10 +97,11 @@ td{height: 22px;}
 
 footer > p{text-align: center; line-height: 120px;}
 
-.now_date{font-size: 30px; color: #4171ff;/*width: 249px; height: 135px;*/}
+.now_date{font-size: 33px; color: #4171ff;/*width: 249px; height: 135px;*/}
 
 .left_btn{float: left;}
 .right_btn{float: right;}
 .left_btn,.right_btn{cursor: pointer;}
 
 .date_box{width: 259px; height: 115px; line-height: 115px;}
+
