@@ -16,16 +16,20 @@ $(document).ready(function () {
 
     $(".sub_img_box").click(function () {
         $(".sub_pup_box").css({"display" : "block"});
+        $(".pupup_box").css({"display" : "block"});
     });
     $(".sub_pup_box  button").click(function () {
         $(".sub_pup_box").css("display", "none");
+        $(".pupup_box").css({"display" : "none"});
    });
 
     $(".school_food").click(function () {
         $(".food_pup_box").css("display","block");
+        $(".pupup_box").css({"display" : "block"});
     });
     $(".food_pup_box button").click(function () {
         $(".food_pup_box").css("display", "none");
+        $(".pupup_box").css({"display" : "none"});
     });
 
     var dt = new Date();
