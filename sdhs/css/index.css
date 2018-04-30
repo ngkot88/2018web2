@@ -31,8 +31,8 @@ input{
 .drop_top > li > ul > li {font-size: 14px; background-color: white;}
 
 .drop_top > li > ul{ border: 1px solid midnightblue; border-radius: 20px 0px;}
-
 .drop_top > li > ul{height: 0px; overflow: hidden; transition: 1s;}
+
 .drop_top > li:hover >.submenu_5{height: 250px;}
 .drop_top > li:hover >.submenu_7{height: 350px;}
 .drop_top > li:hover >.submenu_8{height: 400px;}
@@ -90,12 +90,12 @@ td{height: 22px;}
 
 .food_pup_box{position: absolute; z-index: 100; top: 295px; display: none; border: 1px solid black; left: 50%; margin-left: -325px; width: 650px; height: 500px; background-color: white;}
 .food_pup_box button{width: 100px; height: 50px; display: block; margin: 20px auto;}
-.food_pup_box>div{width: 550px; height: 100%; margin: 20px auto;}
+.food_pup_box>div{width: 550px; height: auto; margin: 25px auto;}
 .food_pup_box  > img{margin-top: 40px;}
 
 .job_jung > p{font-weight: bold;}
 
-footer > p{text-align: center; line-height: 120px;}
+footer > p{text-align: center;}
 
 .now_date{font-size: 33px; color: #4171ff;/*width: 249px; height: 135px;*/}
 
@@ -106,3 +106,7 @@ footer > p{text-align: center; line-height: 120px;}
 .date_box{width: 259px; height: 115px; line-height: 115px;}
 
 .pupup_box{width: 100%; height: 100%; position: fixed; background-color: rgba(0, 0, 0, 0.7); z-index: 99;display: none; }
+
+#adrres{height: auto; width: auto; margin: 0 auto; float: left; margin-top: 20px; margin-left: 70px;}
+#footer_logo{height: 120px; width: 400px; float: left;}
+#footer_logo > img{float: right; margin-top: 20px;}
