@@ -13,6 +13,9 @@ $(document).ready(function () {
        }
    }
    setInterval(slide_right,2000);
+   $("#slide_btn_box > #slide_btn1").click(function () {
+
+   });
 
     $(".sub_img_box").click(function () {
         $(".sub_pup_box").css({"display" : "block"});
